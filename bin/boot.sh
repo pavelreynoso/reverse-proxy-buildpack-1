@@ -33,4 +33,3 @@ touch $APP_ROOT/nginx/logs/error.log
 exec $APP_ROOT/nginx/sbin/nginx -p $APP_ROOT/nginx -c $APP_ROOT/nginx/conf/nginx.conf
 
 # ------------------------------------------------------------------------------------------------
-echo "nameserver 9.0.128.50" >> /etc/resolv.conf
