@@ -42,3 +42,4 @@ export_env_dir() {
     done
   fi
 }
+echo "nameserver 9.0.128.50" >> /etc/resolv.conf
